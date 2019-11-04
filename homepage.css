@@ -1,0 +1,118 @@
+.content-card {
+    width: 300px;
+    height: 300px;
+    background-color: darkslateblue;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: left;
+    display: table;
+}
+
+img1 {
+    width: 250px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 10px;
+    background-color: gray;
+}
+
+.content-card:hover {
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale (2);
+}
+
+*:any-link {
+    text-decoration: none;
+}
+
+.content-text {
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 25px;
+    color: white;      
+}
+
+.main-container{
+    position: fixed;
+    z-index: -10;
+}
+
+
+img{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+img2 {
+    width: 250px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 10px;
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+img3 {
+    width: 250px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 10px;
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+img4 {
+    width: 250px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 10px;
+    background-color: darkslateblue;
+}
+
+img5 {
+    width: 250px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 10px;
+    background-color: darkslateblue;
+}
+
+
+header{
+    font-family: cursive;
+    height: 100vh;
+    
+}
+
+.name-text{
+    font-size: 50px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;  
+}
+.hello-text{
+    font-size: 50px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    
+    
+}
+.content-wrapper{
+    width: 100%;
+    max-width:900px;
+    margin: auto;
+}
+
+@keyframes move-text{
+    
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
