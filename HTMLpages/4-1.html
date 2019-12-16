@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <style>
+  
+       body{
+            max-width:900px;
+            width:100%;
+            margin: auto;
+            font-family: 'Bebas Neue' , cursive;
+            letter-spacing: 3px;
+            background-color: #525252;
+            
+            
+        }  
+        
+        .container{
+            width: 100%;
+            background: linear-gradient(90deg, rgba(250, 163, 229, 1)11% rgba(69, 232, 252, 1)100%);
+            border-radius: 20px;
+            display: grid;
+            grid-gap: 0;
+            padding: 20px 0 20px 0;
+            overflow: hidden;
+      
+        }
+        
+        .item{
+            background-color: rgba(0,0,0,0.2);
+            text-align: center;
+            border-radius: hidden;
+        }
+        
+        header{
+            width: 50px;
+            height: 50px;
+        }
+    
+        .one{
+            grid-template-columns: 100px 100px 100px 100px 100px 100px;
+        }
+    
+         .two{
+            grid-template-columns: 10px 50px 100px 200px 300px 30px;
+        }
+        
+         .three{
+            grid-template-columns: 10% 10% 10% 10% 10%  10%;
+        }
+        
+         .four{
+            grid-template-columns: 5% 10% 50% 10% 1%;
+        }
+        
+         .five{
+            grid-template-columns:1fr 2fr 1fr 1fr 1fr 1fr ;
+        }
+        
+         .six{
+            grid-template-columns: 1fr 2fr 6fr 1fr 1fr 1fr;
+        }
+        
+         .seven{
+            grid-template-columns: 20% 250px 1FR 1FR 2FR 1FR;
+        }
+    
+    
+    
+    </style>
+    
+     
+    
+</head>
+
+<body>
+    
+<h1>1.Fixed Width - 100px</h1>
+    <section class="cotainer one">
+    
+    <div class="item">100px</div>
+    <div class="item">100px</div>
+    <div class="item">100px</div>
+    <div class="item">100px</div>
+    <div class="item">100px</div>
+    <div class="item">100px</div> 
+        </section>
+    
+    
+    
+    
+    
+    <h2>2.Fixed Width - DIFFERENT SIZES</h2>
+    <section class="cotainer two">
+    
+    <div class="item">10px</div>
+    <div class="item">50px</div>
+    <div class="item">100px</div>
+    <div class="item">200px</div>
+    <div class="item">300px</div>
+    <div class="item">30px</div> 
+        </section>
+    
+    
+    
+    
+    
+    <h3>3.FLEXIBLE WIDTH - PERCENTAGES</h3>
+    <section class="cotainer three">
+    
+    <div class="item">10%</div>
+    <div class="item">10%</div>
+    <div class="item">10%</div>
+    <div class="item">10%</div>
+    <div class="item">10%</div>
+    <div class="item">10%</div> 
+        </section>
+    
+    
+    
+    
+    
+    <h4>4.FLEXIBLE WIDTH - DIFFERENT PERCENTAGES</h4>
+    <section class="cotainer four">
+    
+    <div class="item">5%</div>
+    <div class="item">10%</div>
+    <div class="item">20%</div>
+    <div class="item">50%</div>
+    <div class="item">10%</div>
+    <div class="item">1%</div> 
+        </section>
+    
+    
+    
+    
+    
+    <h5>5.FLEXIBLE WIDTH-FR</h5>
+    <section class="cotainer five">
+    
+    <div class="item">1FR</div>
+    <div class="item">1FR</div>
+    <div class="item">1FR</div>
+    <div class="item">1FR</div>
+    <div class="item">1FR</div>
+    <div class="item">1FR</div> 
+        </section>
+    
+    
+    
+    
+    
+    <h6>6.FLEXIBLE WIDTH-DIFFERENT FR</h6>
+    <section class="cotainer six">
+    
+    <div class="item">1FR</div>
+    <div class="item">2FR</div>
+    <div class="item">6FR</div>
+    <div class="item">1FR</div>
+    <div class="item">1FR</div>
+   <div class="item">1FR</div> 
+        </section>
+    
+    
+    
+    
+    <h7>7.COMBINED-FIXED WITH FLEXIBLE COLUMNS</h7>
+    <section class="cotainer seven">
+    
+    <div class="item">20%</div>
+    <div class="item">250px</div>
+    <div class="item">1FR</div>
+    <div class="item">1FR</div>
+    <div class="item">2FR</div>
+    <div class="item">1FR</div> 
+        </section>
+ 
+    
+    
+</body>
+</html>
+
+
+
+
